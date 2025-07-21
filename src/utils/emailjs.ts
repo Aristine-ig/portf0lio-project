@@ -2,7 +2,7 @@ import emailjs from '@emailjs/browser';
 import { ContactForm } from '../types';
 
 // EmailJS configuration
-const SERVICE_ID = 'your_service_id'; // Replace with your EmailJS service ID
+const SERVICE_ID = 'service_xeq0f4r'; // Replace with your EmailJS service ID
 const TEMPLATE_ID = 'your_template_id'; // Replace with your EmailJS template ID  
 const PUBLIC_KEY = 'your_public_key'; // Replace with your EmailJS public key
 
