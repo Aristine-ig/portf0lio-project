@@ -3,15 +3,14 @@ import { Code, Palette, Database, Globe } from 'lucide-react';
 
 const About: React.FC = () => {
   const skills = [
-    // { name: 'JavaScript/TypeScript', level: 60 },
-    // { name: 'React/Next.js', level: 85 },
-    // { name: 'Node.js', level: 80 },
-    // { name: 'Python', level: 75 },
+    { name: 'JavaScript/TypeScript', level: 80 },
+    { name: 'React/Next.js', level: 85 },
+    { name: 'Node.js', level: 80 },
+    { name: 'Python', level: 75 },
     // { name: 'UI/UX Design', level: 85 },
-    // { name: 'Database Design', level: 80 },
-    { name: 'JavaScript', level: 60 },
-    { name: 'Html', level: 85 },
-    { name: 'CSS', level: 80 },
+    { name: 'Database (MongoDB, MySQL)', level: 80 },
+    { name: 'Html', level: 90 },
+    { name: 'CSS', level: 90 },
     // { name: 'Python', level: 75 },
     // { name: 'UI/UX Design', level: 85 },
     // { name: 'Database Design', level: 80 },
@@ -23,21 +22,21 @@ const About: React.FC = () => {
       title: 'Frontend Development',
       description: 'Creating responsive, interactive user interfaces with modern frameworks like React and Vue.js.'
     },
-    // {
-    //   icon: <Database className="w-8 h-8" />,
-    //   title: 'Backend Development',
-    //   description: 'Building robust server-side applications and APIs with Node.js, Python, and various databases.'
-    // },
+    {
+      icon: <Database className="w-8 h-8" />,
+      title: 'Backend Development',
+      description: 'Building robust server-side applications and APIs with Node.js, Python, and various databases.'
+    },
     {
       icon: <Palette className="w-8 h-8" />,
       title: 'UI/UX Design',
       description: 'Designing user-centered interfaces that are both beautiful and highly functional.'
     },
-    // {
-    //   icon: <Globe className="w-8 h-8" />,
-    //   title: 'Full Stack Solutions',
-    //   description: 'End-to-end development from concept to deployment, ensuring seamless user experiences.'
-    // }
+    {
+      icon: <Globe className="w-8 h-8" />,
+      title: 'Full Stack Solutions',
+      description: 'End-to-end development from concept to deployment, ensuring seamless user experiences.'
+    }
   ];
 
   return (
@@ -49,7 +48,7 @@ const About: React.FC = () => {
               About Me
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              I'm a passionate developer with 1+ years of experience creating digital solutions 
+              I'm a passionate developer with 2+ years of experience creating digital solutions 
               that make a difference. I love turning complex problems into simple, beautiful designs.
             </p>
           </div>

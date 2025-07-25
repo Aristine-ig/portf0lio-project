@@ -48,19 +48,19 @@ const Contact: React.FC = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: 'Email',
-      content: 'salonikhillare20@gmail.com',
-      link: 'mailto:salonikhillare20@gmail.com'
+      content: 'aristine277@gmail.com',
+      link: 'mailto:aristine277@gmail.com'
     },
     {
       icon: <Phone className="w-6 h-6" />,
       title: 'Phone',
-      content: '+91 92200 45209',
-      link: 'tel:+91 92200 45209'
+      content: '+91-7039447605',
+      link: 'tel:+91-7039447605'
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       title: 'Location',
-      content: 'Andheri, Mumbai, India',
+      content: 'Mumbai, Maharashtra, India',
       link: '#'
     }
   ];

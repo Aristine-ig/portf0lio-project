@@ -38,8 +38,8 @@ const Footer: React.FC = () => {
             <div>
               <h4 className="text-lg font-semibold mb-4">Connect</h4>
               <div className="flex space-x-4">
-                {/* <a
-                  href="https://github.com"
+                <a
+                  href="https://github.com/Aristine-ig"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors duration-200"
@@ -47,15 +47,15 @@ const Footer: React.FC = () => {
                   <Github className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/rajsingh-tech"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors duration-200"
                 >
                   <Linkedin className="w-5 h-5" />
-                </a> */}
+                </a>
                 <a
-                  href="mailto:salonikhillare20.com"
+                  href="mailto:aristine277@gmail.com"
                   className="p-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors duration-200"
                 >
                   <Mail className="w-5 h-5" />

@@ -4,42 +4,43 @@ import { Project } from '../types';
 
 const Projects: React.FC = () => {
   const projects: Project[] = [
-    // {
-    //   id: 1,
-    //   title: 'E-Commerce Platform',
-    //   description: 'A full-stack e-commerce solution built with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and inventory management.',
-    //   image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-    //   technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe', 'Tailwind CSS'],
-    //   demoUrl: 'https://demo.example.com',
-    //   githubUrl: 'https://github.com/example/project'
-    // },
     {
-      id: 2,
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-      image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800',
-      technologies: ['Html', 'CSS', 'Javascript'],
-      // demoUrl: 'https://demo.example.com',
-      // githubUrl: 'https://github.com/example/project'
+      id: 1,
+      title: 'E-Commerce Platform',
+      description: 'A full-stack e-commerce solution built with React, Node.js, and MongoDB. Features include user authentication, payment processing, and inventory management.',
+      image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
+      technologies: ['React', 'Node.js', 'MongoDB', 'Razorpay', 'Tailwind CSS'],
+      demoUrl: 'https://ecom-project-three-eosin.vercel.app',
+      githubUrl: 'https://github.com/Aristine-ig/ecom-project'
     },
-    // {
-    //   id: 3,
-    //   title: 'Weather Dashboard',
-    //   description: 'A responsive weather dashboard that provides detailed forecasts, interactive maps, and personalized weather alerts using multiple APIs.',
-    //   image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
-    //   technologies: ['React', 'TypeScript', 'Chart.js', 'Weather API', 'PWA'],
-    //   demoUrl: 'https://demo.example.com',
-    //   githubUrl: 'https://github.com/example/project'
-    // },
     {
       id: 4,
-      title: 'Portfolio Website',
+      title: '3D-Portfolio Website',
       description: 'A modern, responsive portfolio website showcasing projects and skills with smooth animations and optimized performance.',
       image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
+      technologies: ['Javascript', 'React', 'Html', 'CSS'],
+      demoUrl: 'https://3d-portfolio-sandy.vercel.app',
+      githubUrl: 'https://github.com/Aristine-ig/3d-portfolio'
+    },
+    {
+      id: 2,
+      title: 'Lexus-Trading - Client Project',
+      description: 'A responsive, single-page e-commerce website. It features dynamic testimonial sections, a real-time review form, Razorpay payment gateway and email-based digital delivery after purchase.',
+      image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['Html', 'CSS', 'Javascript'],
-      // demoUrl: 'https://demo.example.com',
-      // githubUrl: 'https://github.com/example/project'
-    }
+      demoUrl: 'https://lexus-trading.vercel.app',
+      githubUrl: 'https://github.com/Aristine-ig/Lexus-Trading'
+    },
+    {
+      id: 3,
+      title: 'Tomato - Food Ordering Platform',
+      description: 'A comprehensive online food ordering platform with restaurant listings, menu browsing, cart management, and real-time order tracking with admin page to manage products.',
+      image: 'https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=800',
+      technologies: ['React', 'Javascript', 'Next.js', 'Tailwind CSS', 'Stripe'],
+      demoUrl: 'https://restaurant-full-frontend.onrender.com',
+      githubUrl: 'https://github.com/Aristine-ig/RestaurantWebAdvance'
+    },
+ 
   ];
 
   return (
